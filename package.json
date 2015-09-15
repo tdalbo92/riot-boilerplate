@@ -1,0 +1,48 @@
+{
+  "name": "riot-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate Riot + Flux project",
+  "repository": "github.com/tdalbo92/riot-boilerplate",
+  "main": "dist/bundle.js",
+  "scripts": {
+    "test": "gulp test",
+    "start": "gulp watch",
+    "build": "gulp"
+  },
+  "author": "Thomas N Dalbo",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "bower": "^1.5.x",
+    "browserify": "^11.1.x",
+    "del": "^2.0.x",
+    "gulp": "^3.9.x",
+    "gulp-concat": "^2.6.x",
+    "gulp-insert": "^0.5.x",
+    "gulp-jshint": "^1.11.x",
+    "gulp-load-plugins": "^0.10.x",
+    "gulp-merge": "^0.1.x",
+    "gulp-order": "^1.1.x",
+    "gulp-rename": "^1.2.x",
+    "gulp-riot": "^0.3.x",
+    "gulp-sass": "^2.0.x",
+    "gulp-uglify": "^1.4.x",
+    "jasmine": "^2.3.x",
+    "jasmine-core": "^2.3.x",
+    "jshint": "^2.8.x",
+    "karma": "^0.13.x",
+    "karma-chrome-launcher": "^0.2.x",
+    "karma-firefox-launcher": "^0.1.x",
+    "karma-jasmine": "^0.3.x",
+    "karma-junit-reporter": "^0.3.x",
+    "karma-phantomjs-launcher": "^0.2.x",
+    "karma-riot": "^1.0.x",
+    "node-sass": "^3.3.x",
+    "phantomjs": "^1.9.x",
+    "riot": "^2.2.x",
+    "run-sequence": "^1.1.x",
+    "through2": "^2.0.x"
+  },
+  "dependencies": {
+    "node-polyglot": "^0.4.x"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "riot-boilerplate",
+  "main": "dist/bundle.js",
+  "version": "1.0.0",
+  "authors": [
+    "Thomas N Dalbo"
+  ],
+  "description": "Boilerplate Riot + Flux project",
+  "moduleType": [
+    "node"
+  ],
+  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "es6-promise": "~3.0.x",
+    "fetch": "~0.9.x"
+  }
+}
