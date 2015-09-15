@@ -1,6 +1,16 @@
 # Riot Boilerplate Project
 If you want to get a flux-like Riot project up and running, look no further!  This will get a building and testing project.
 
+## How to build
+Easy!
+
+`npm install` and `bower install` need to be run after freshly cloning the repository.  You also need gulp to be installed.
+
+* `gulp` will build the default debug, uncompressed code
+* `gulp build` will make production code
+* `gulp watch` builds and watches the dev directory for changes, as well as runs Chrome in Continuous Integration mode
+* `gulp test` and `gulp test_ci` will run one-time and CI Karma tests, respectively.  Test is headless using PhantomJS.
+
 ## Code overview
 The basic structure of the application looks like this:
 
